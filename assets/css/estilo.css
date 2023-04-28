@@ -1,0 +1,119 @@
+/*MOBILE STYLES*/
+body {
+	margin: 0;
+	padding: 0;
+	height: 100VH;
+	width: 100VW;
+	position:absolute;
+}
+.rosado{
+	background-color: pink;
+	width: 100VW;
+	height: 25VH;
+}
+.verde{
+	background-color: green;
+	width: 100VW;
+	height: 25VH;
+}
+.azul{
+	background-color: blue;
+	width: 100VW;
+	height: 15VH;
+}
+.rojo{
+	background-color: red;
+	display: none;
+}
+.morado{
+	background-color: purple;
+	display: none;
+}
+.gris{
+	background-color: grey;
+	width: 100VW;
+	height: 35VH;
+	}
+
+/*501px y 750px*/
+
+@media (min-width: 500px) {
+	.rosado{
+	background-color: pink;
+	width: 100VW;
+	height: 26VH;
+}
+.verde{
+	background-color: green;
+	width: 33VW;
+	height: 25VH;
+	display: inline-block;
+}
+.azul{
+	background-color: blue;
+	width: 33VW;
+	height: 25VH;
+	display: inline-block;
+}
+.rojo{
+	background-color: red;
+	width: 32VW;
+	height: 25VH;
+	display: inline-block;
+}
+.morado{
+	background-color: purple;
+	width: 60VW;
+	height: 50VH;
+	display: inline-block;
+}
+.gris{
+	background-color: grey;
+	width: 39VW;
+	height: 50VH;
+	display: inline-block;
+}
+}
+
+/*751px*/
+
+@media (min-width: 751px) {
+	.rosado{
+	background-color: pink;
+	width: 100vw;
+	height: 3vh;
+	
+}
+.verde{
+	background-color: green;
+	width: 100vw;
+	height: 20vh;
+	display:block;
+}
+.azul{
+	background-color: blue;
+	width: 100%;
+	height: 30vh;
+	display: block;
+}
+.rojo{
+	background-color: red;
+	width: 33.3vw;
+	height: 20vh;
+	display: block;
+	float: left;
+}
+.morado{
+	background-color: purple;
+	width: 34.7vw;
+	height: 20vh;
+
+}
+.gris{
+	background-color: grey;
+	width: 32vw;
+	height: 20vh;
+	float: right;
+}
+}
+
